@@ -3,7 +3,6 @@ h1,h2 {
 }
 .page {
   max-width: min(880px, 69vw);
-  
   margin: 0 auto;
 }
 
