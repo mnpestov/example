@@ -2,15 +2,16 @@ h1,h2 {
     margin: 0;
 }
 .page {
-  max-width: clamp(880px, 69vw, 320px);
+  max-width: min(880px, 69vw);
+  
   margin: 0 auto;
 }
 
-/* @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .page {
     max-width: max(320px, 69vw);
   }
-} */
+}
 
 .header {
   border: 1px solid red;
